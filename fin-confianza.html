@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <header>
+        <figure id="logo">
+            <img class="logo" src="img/logo-website.jpg" alt="Logo">
+        </figure>
+        <h1>#1 La credibilidad de los medios</h1>
+    </header>
     <nav>
         <ul>
-            <li><a href="fin-confianza.html" class="navlink">Artículo</a></li>
-            <li><a href="recursos.html" class="navlink">Recursos</a></li>
-            <li><a href="terminologia.html"class="navlink">Terminología</a></li>
+            <li id="activelink"><a href="fin-confianza.html" class="navlink">ARTÍCULO</a></li>
+            <li><a href="recursos.html" class="navlink">RECURSOS</a></li>
+            <li><a href="terminologia.html"class="navlink">TERMINOLOGÍA</a></li>
         </ul>   
     </nav>
-    <hr>
     <main>
         <section class="titulo">
             <h2>¿El fin de la confianza?</h2>
@@ -89,10 +94,12 @@
                     reunía tres de los temores de moda: noticias falsas, 
                     manipulación de procesos electorales y, claro está, 
                     pérdida de privacidad. Vayamos por partes.</p>
-                    <iframe width="1328" height="747" src="https://www.youtube.com/embed/FXdYSQ6nu-M" 
-                    title="Cambridge Analytica whistleblower: &#39;We spent $1m harvesting millions of Facebook profiles&#39;" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figure>
+                        <iframe width="1328" height="747" src="https://www.youtube.com/embed/FXdYSQ6nu-M" 
+                        title="Cambridge Analytica whistleblower: &#39;We spent $1m harvesting millions of Facebook profiles&#39;" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+                    </figure>
                     <p class="imagetext">Cambridge Analytica whistleblower: "We spent $1m harvesting millions of Facebook profiles" | The Guardian</p>
                     <p>
                     Las noticias falsas no son un fenómeno de Internet. 
@@ -234,7 +241,9 @@
             </article>
         </section>
         <section id="ferran">
-            <img src="img/ferran-esteve.jpg" alt="Imagen de Ferran Steve">
+            <figure class="roundimg">
+                <img src="img/ferran-esteve.jpg" alt="Imagen de Ferran Steve">
+            </figure>
             <p>
             Ferran Esteve es periodista, investigador e ilustrador. Su proyecto más 
             reciente es Proun, un fanzine de investigación y creación que explora 
